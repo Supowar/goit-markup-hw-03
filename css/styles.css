@@ -25,7 +25,7 @@ font-family: "Raleway", sans-serif;
     color: #4d5ae5;
 }
 .logo-part{
-    color:#2e2f42; 
+    color: #2e2f42; 
 }
 .nav-link{
     color: #2e2f42;
@@ -57,7 +57,7 @@ font-style: normal;
     background:#2e2f42;
 }
 
-.title-h1{
+.title-h-one{
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -82,9 +82,17 @@ font-style: normal;
     background-color: #404BBF;
 }
 
-/* section hero2 */
+/* section hero-two */
 
-.title-h2{
+.title-h-two{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+}
+
+.title-Strategy{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -98,13 +106,13 @@ font-style: normal;
     letter-spacing: 0.02em;
 }
 
-/* section hero3 */
+/* section hero-three */
 
-.hero3{
+.hero-three{
     background-color: #F4F4FD;
 }
 
-.title-h3{
+.title-h-three{
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -113,9 +121,14 @@ font-style: normal;
     color:#2e2f42;
 }
 
-.ul-hero3{
+.ul-hero-three{
     background-color: #FFFFFF;
 }
+
+.li-three{
+    background-color: #FFFFFF;
+}
+
 
 .down{
     background-color: #2e2f42;
@@ -125,7 +138,7 @@ font-style: normal;
     line-height: 1.17;
 }
 
-.logo-part{
+.logo-part-footer{
     color: #f4f4fd;
 }
 

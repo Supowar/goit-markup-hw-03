@@ -1,8 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 body{
 font-family: "Roboto", sans-serif;
 color: #434455;
 background-color: #fff;
 }
+
+
+
 a{
     text-decoration: none;
 }
@@ -13,6 +22,39 @@ ul, ol{
 
 button{
     cursor:pointer;
+}
+
+
+/* общие классы */
+.container{
+    width: 1158px;
+    margin: 0 auto;
+}
+
+/* конкретные коассы */
+
+
+.top-header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-header .container nav {
+    display: flex;
+    gap: 76px;
+}
+
+
+.top-header .container nav ul {
+    display: flex;
+    gap: 40px;
+}
+
+
+.top-header .container .address ul {
+    display: flex;
+    gap: 40px;
 }
 
 .logo{

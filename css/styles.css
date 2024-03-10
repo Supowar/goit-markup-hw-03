@@ -20,7 +20,7 @@ ul, ol{
     list-style: none;
 }
 
-.img{
+img{
     display: block;
         max-width: 100%;
         height: auto;
@@ -37,11 +37,14 @@ button{
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-    display: flex;
 }
 
 /* конкретные коассы */
 
+.header-container{
+    display: flex;
+    align-items: center;
+}
 
 
 .top-header{
@@ -53,7 +56,6 @@ display: flex;
 
 .nav-header{
     display: flex;
-    gap: 76px;
     align-items: center;
 }
 
@@ -91,6 +93,7 @@ font-family: "Raleway", sans-serif;
         letter-spacing: 0.02em;
         padding-top: 24px;
         padding-bottom: 24px;
+        display: block;
 }
 .nav-link:hover,
 .nav-link:focus{
@@ -99,6 +102,7 @@ font-family: "Raleway", sans-serif;
 
 .address{
 font-style: normal;
+margin-left: auto;
 }
 
 .ul-address{
@@ -185,18 +189,10 @@ font-style: normal;
     letter-spacing: 0.02em;
     color:#2e2f42;
     margin-bottom: 8px;
-    width: calc((100% - 72px) / 4);
 }
 
 .li-two {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-        display: flex;
-        gap: 24px;
-        width: calc((100% - 72px) / 4);
+ width: calc((100% - 72px) / 4);
 }
 
 
@@ -210,11 +206,6 @@ font-style: normal;
 /* section hero-three */
 
 
-.img{
-    display: block;
-    max-width: 100%;
-        height: auto;
-}
 
 
 .hero-three{
@@ -233,15 +224,12 @@ font-style: normal;
 }
 
 .ul-hero-three{
-    background-color: #FFFFFF;
     display: flex;
     gap: 24px;
 }
 
 .li-three{
     background-color: #FFFFFF;
-    display: flex;
-    gap: 24px;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
@@ -255,8 +243,6 @@ font-style: normal;
 
 .logo{
     line-height: 1.17;
-    display: inline-block;
-    margin-bottom: 16px;
 }
 
 .logo-part-footer{
@@ -267,6 +253,7 @@ font-style: normal;
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+    max-width: 269;
 }
 
 .team-list-title {
@@ -306,7 +293,12 @@ font-style: normal;
     width: calc((100% - 48px) / 3);
 }
 
-
+.portfolio-text-wrap{
+    padding: 32px 16px;
+    border-bottom: 1px solid #e7e9fc;
+        border-left: 1px solid #e7e9fc;
+        border-right: 1px solid #e7e9fc;
+}
 
 
 .portfolio-list-title {

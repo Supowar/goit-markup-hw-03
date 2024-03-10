@@ -29,37 +29,36 @@ button{
 .container{
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px 0 15px,
+    padding-left: 15px;
+    padding-right: 15px;
 
 }
 
 /* конкретные коассы */
 
 
-.top-header .container{
-    display: flex;
+
+.top-header{
+border-bottom: 1px solid #e7e9fc;
+display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #e7e9fc
 }
 
-
-
-
-.top-header .container nav {
+.nav-header{
     display: flex;
     gap: 76px;
     align-items: center;
 }
 
 
-.top-header .container nav ul {
+.ul-header{
     display: flex;
     gap: 40px;
 }
 
 
-.top-header .container .address ul {
+.address{
     display: flex;
     gap: 40px;
 }
@@ -184,6 +183,14 @@ font-style: normal;
 }
 
 /* section hero-three */
+
+
+.img{
+    display: block;
+    max-width: 100%;
+        height: auto;
+}
+
 
 .hero-three{
     background-color: #F4F4FD;

@@ -135,6 +135,8 @@ margin-left: auto;
     letter-spacing: 0.02em;
     color: #ffffff;
     max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
 }
 
 .hero-button{
@@ -149,6 +151,7 @@ margin-left: auto;
     border-radius: 4px;
     min-width: 169px;
     height: 56px;
+    margin: 0 auto;
 }
 
 .hero-button:hover{
@@ -214,7 +217,7 @@ margin-left: auto;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
-    text-align: center;
+
 }
 
 /* section hero-three */
@@ -251,6 +254,7 @@ margin-left: auto;
 
 .team-text-wrap{
     padding: 32px 0 32px;
+    text-align: center;
 }
 
 
@@ -272,7 +276,7 @@ margin-left: auto;
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
-    max-width: 269;
+    max-width: 264;
 }
 
 .team-list-title {
